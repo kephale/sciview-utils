@@ -101,15 +101,6 @@
 
 	<dependencies>
 
-		<dependency>
-			<groupId>sc.iview</groupId>
-			<artifactId>sciview</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>fr.inra.ijpb</groupId>
-			<artifactId>MorphoLibJ_</artifactId>
-			<version>1.4.1</version>
-		</dependency>
 
 		<!-- ImageJ dependencies -->
 		<dependency>
@@ -122,7 +113,7 @@
 		</dependency>
 		<dependency>
 			<groupId>net.imagej</groupId>
-			<artifactId>imagej-notebook</artifactId>
+			<artifactId>imagej-mesh</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>net.imagej</groupId>
