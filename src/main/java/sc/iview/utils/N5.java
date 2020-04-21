@@ -66,6 +66,7 @@ public class N5 {
             }
         }
 
+        n5.setAttribute(dataset, "nodeType", "sciview-1.0.0 trimesh");
         N5Utils.save(vertImg, n5, dataset + "/vertices", vertexBlockSize, compression);
         N5Utils.save(triImg, n5, dataset + "/triangles", triangleBlockSize, new GzipCompression());
     }
@@ -82,6 +83,7 @@ public class N5 {
             }
         }
 
+        n5.setAttribute(dataset, "nodeType", "sciview-1.0.0 points");
         N5Utils.save(vertImg, n5, dataset, vertexBlockSize, compression);
     }
 
